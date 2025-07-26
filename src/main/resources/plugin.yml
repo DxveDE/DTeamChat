@@ -1,0 +1,6 @@
+name: DTeamChat
+version: '0.1.0'
+main: de.dxve.dTeamChat.DTeamChat
+api-version: '1.21'
+authors: [ Dxve ]
+website: https://dxve.de
