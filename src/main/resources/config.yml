@@ -1,0 +1,34 @@
+#
+#  ██████████   ███████████                                      █████████  █████                 █████
+# ░░███░░░░███ ░█░░░███░░░█                                     ███░░░░░███░░███                 ░░███
+#  ░███   ░░███░   ░███  ░   ██████   ██████   █████████████   ███     ░░░  ░███████    ██████   ███████
+#  ░███    ░███    ░███     ███░░███ ░░░░░███ ░░███░░███░░███ ░███          ░███░░███  ░░░░░███ ░░░███░
+#  ░███    ░███    ░███    ░███████   ███████  ░███ ░███ ░███ ░███          ░███ ░███   ███████   ░███
+#  ░███    ███     ░███    ░███░░░   ███░░███  ░███ ░███ ░███ ░░███     ███ ░███ ░███  ███░░███   ░███ ███
+#  ██████████      █████   ░░██████ ░░████████ █████░███ █████ ░░█████████  ████ █████░░████████  ░░█████
+# ░░░░░░░░░░      ░░░░░     ░░░░░░   ░░░░░░░░ ░░░░░ ░░░ ░░░░░   ░░░░░░░░░  ░░░░ ░░░░░  ░░░░░░░░    ░░░░░
+#
+
+# DTeamChat v1.0.0 by DxveDE
+# https://discord.gg/dxve
+
+
+# The prefix for all messages (can be used with %prefix% in the messages, not for command-only-players)
+prefix: "&4DTeamChat &8┃&7"
+
+settings:
+    # Checks automatically for updates
+    # If an update was found, you get a message on server join (you need operator to get the message)
+    update-checker: true
+
+    # Permission to use and see the team chat
+    permission: "dteamchat.use"
+
+    # Chat colors in team chat?
+    color-codes: true
+
+messages:
+    no-permissions: "%prefix% &cYou do not have sufficient permissions for this."
+    command-only-players: "This command is only for players."
+    teamchat-message: "%prefix% &f%playername%&8: &7&o%message%"
+    syntax: "%prefix% &cUsage of command: &7/teamchat <message>"

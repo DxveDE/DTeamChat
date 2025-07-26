@@ -1,6 +1,13 @@
-name: DTeamChat
-version: '0.1.0'
+name: ${dxve.name}
+version: ${dxve.version}
 main: de.dxve.dTeamChat.DTeamChat
 api-version: '1.21'
 authors: [ Dxve ]
 website: https://dxve.de
+
+commands:
+    dteamchat:
+        description: 'TeamChat command'
+        aliases:
+            - teamchat
+            - tc
