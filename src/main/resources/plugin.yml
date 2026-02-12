@@ -4,6 +4,7 @@ main: de.dxve.dTeamChat.DTeamChat
 api-version: '1.21'
 authors: [ Dxve ]
 website: https://dxve.de
+description: Chat with your team
 
 commands:
     dteamchat:
