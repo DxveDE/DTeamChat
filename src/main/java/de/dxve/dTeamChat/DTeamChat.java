@@ -61,6 +61,7 @@ public final class DTeamChat extends JavaPlugin {
             getLatestVersion(latestVersion -> {
                 String currentVersion = getPluginMeta().getVersion();
                 if (!currentVersion.equalsIgnoreCase(latestVersion)) {
+                    getLogger().info("◢◤ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ◥◣");
                     getLogger().info(" ");
                     getLogger().info("  »  An update with version " + latestVersion + " is available!");
                     getLogger().info("  »  Download: https://github.com/DxveDE/" + getPluginMeta().getName() + "/releases/latest");
